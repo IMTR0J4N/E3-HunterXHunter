@@ -57,6 +57,7 @@ header ul li {
     font-family: var(--font);
     font-size: var(--nav--font-size);
     color: var(--color-white);
+    cursor: pointer;
 }
 
 main {
