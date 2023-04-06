@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
 
 :root {
-    --header-font: "Luckiest Guy", cursive;
+    --font: "Luckiest Guy", cursive;
+    --font2: "Verdana";
     --max-width: 750px;
     --nav--font-size: 1.3em;
+    --title--font-size: 1.3em;
     --color-purple: #27032d;
     --color-gray: #666666;
     --color-white: #FFFFFF;
@@ -12,6 +14,8 @@
 body {
     height: 100vh;
     width: 100vw;
+    background-image: url("../../assets/fond.png");
+    background-repeat: repeat;
 }
 
 header {
@@ -50,7 +54,61 @@ header ul {
 
 header ul li {
     text-transform: uppercase;
-    font-family: var(--header-font);
+    font-family: var(--font);
     font-size: var(--nav--font-size);
     color: var(--color-white);
+}
+
+main {
+    width: 60%;
+    height: auto;
+    padding: 50px 30px;
+    margin-left: 20%;
+    background-color: var(--color-white);
+}
+
+main article h2 {
+    font-family: var(--font);
+    font-size: var(--title--font-size);
+    color: var(--color-purple);
+}
+
+main article h2 iconify-icon {
+    margin-right: 5px;
+}
+
+main article img {
+    width: 180px;
+    padding-top: 15px;
+    float: left;
+}
+
+main article p {
+    padding-top: 15px;
+    font-family: var(--font2);
+    color: var(--color-gray);
+}
+
+main article div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-purple);
+    height: 40px;
+    width: 100px;
+    margin-left: 800px;
+}
+
+main article div a {
+    text-decoration: none;
+    color: var(--color-white);
+    font-family: var(--font2);
+}
+
+main article ul {
+    list-style: disc;
+    color: var(--color-gray);
+    font-family: var(--font2);
+    margin-top: 20px;
+    margin-left: 50px;
 }
