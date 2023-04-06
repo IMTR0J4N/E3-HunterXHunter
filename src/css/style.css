@@ -112,3 +112,25 @@ main article ul {
     margin-top: 20px;
     margin-left: 50px;
 }
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 165px;
+    width: 100%;
+}
+
+footer img {
+    width: 100px;
+}
+
+footer p {
+    font-family: var(--font2);
+    padding-top: 10px;
+}
+
+footer p a {
+    color: var(--color-white);
+}
