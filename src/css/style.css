@@ -81,6 +81,7 @@ main article h2 iconify-icon {
 main article img {
     width: 180px;
     padding-top: 15px;
+    margin-right: 15px;
     float: left;
 }
 
@@ -97,7 +98,7 @@ main article div {
     background-color: var(--color-purple);
     height: 40px;
     width: 100px;
-    margin-left: 800px;
+    margin-left: 85%;
 }
 
 main article div a {
